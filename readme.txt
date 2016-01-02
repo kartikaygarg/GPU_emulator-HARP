@@ -23,4 +23,6 @@ Notes:            This emulator program contains following files:
 
                    To vary number of warps in the SM,
                    Vary the value of global variable "WARPS" in "harp_emulator.cpp" | Line 37 or 38
+
+		   Example: ./harp_runs/mem_remap_coal/harp_emulator -warps 8 -lanes 8 -chsize 32768 -chlsize 16 assignment5_programs/bin/scan.8.bin tester_scan_8.log -mem ./results/mem_remap_coal/chl16/mem_trace_16_map_coal_scan_8.log
  
